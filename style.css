@@ -46,6 +46,10 @@ h3 {
   margin-bottom: 50px;
 }
 
+.linha-mobile {
+  display: none;
+}
+
 button {
   border-radius: 50%;
   width: 54px;
@@ -57,7 +61,7 @@ button {
   background: #53ffab;
   position: absolute;
   z-index: 1;
-  bottom: -30px;
+  bottom: -25px;
   cursor: pointer;
 }
 
@@ -81,5 +85,17 @@ h3.animar {
   to {
     transform: translateX(0);
     opacity: 1;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 320px;
+  }
+  .linha-pc {
+    display: none;
+  }
+  .linha-mobile {
+    display: block;
   }
 }
