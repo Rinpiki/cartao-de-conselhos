@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  background: #202632;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.container {
+  background: #313b47;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 494px;
+  text-align: center;
+  border-radius: 10px;
+  position: relative;
+}
+
+.texto {
+  margin-top: 30px;
+  font-family: "Manrope", sans-serif;
+  color: #53ffab;
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-weight: bolder;
+}
+
+h3 {
+  font-weight: 800;
+  font-size: 25px;
+  font-family: "Manrope", sans-serif;
+  color: #cee2e9;
+  margin: 20px auto;
+  animation-name: slide;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+  transform: translateX(-30px);
+}
+
+.linha {
+  margin-bottom: 50px;
+}
+
+button {
+  border-radius: 50%;
+  width: 54px;
+  height: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: #53ffab;
+  position: absolute;
+  z-index: 1;
+  bottom: -30px;
+}
+
+@keyframes slide {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
