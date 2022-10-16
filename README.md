@@ -12,5 +12,5 @@ App que é capaz de gerar conselhos com apenas um click, com base em uma API ext
 - [Prettier](https://prettier.io/)
 
  ## 🏗️Site
- Voce pode acessa o projeto por esse link
+ Voce pode acessa o projeto por esse link.
  - https://stellar-salmiakki-e3ab7b.netlify.app
